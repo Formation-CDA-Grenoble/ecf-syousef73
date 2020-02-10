@@ -51,9 +51,10 @@ public class livre {
     	this.published = published;
     }
    
-    
-    @OneToMany(mappedBy = "user")
-    @JsonIgnoreProperties("user")
-    private Set<Article> article;
+    @OneToOne(mappedBy = "livre")
+    private Set<Tag> tag;
+
+    @OneToMany(mappedBy = "livre")
+    private Set<Chapitre> Chapitre;
   
 }

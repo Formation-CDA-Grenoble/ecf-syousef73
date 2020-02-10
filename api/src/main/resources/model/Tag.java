@@ -25,7 +25,6 @@ public class Tag {
     
     
     @OneToOne(mappedBy = "tag")
-    @JsonIgnoreProperties("tag")
     private Set<Livre> livre;
   
 }
