@@ -71,14 +71,20 @@ Comme personne n'est parfait, il n'est pas exclu que cet examen contienne des co
 - A combien de types d'utilisateurs le projet s'adresse-t-il? Nommez chacun de ces types.
 
 > _Ma réponse:_
+2 type: les admnis et les lecteures
 
 - Combien d'applications faudra-t-il créer et quel sera le type de chacun d'entre elle?
 
 > _Ma réponse:_
+un backend et 2 frontend (website et application mobile)
 
 - Quelles sont les fonctionnalités principales du projet? Listez-les par ordre de priorité (de la plus importante à la moins importante).
 
 > _Ma réponse:_
+1- affichage des livre de Neymar(bass de donner pour les livres et les chapitre)
+2- 2 couch admins et lecteurs
+3- donner l'access a chacque couch avec les droits specifics (motpass).
+4- ajouter
 
 #### 💻 Travail à réaliser
 
@@ -88,7 +94,7 @@ Inclure votre production dans le dépôt Git, ou le **lien de partage** du table
 
 > _Lien de partage de mon tableau Trello:_
 
----
+---https://trello.com/b/c7YQaeXl/dev-project
 
 ### Etape 2. Maquetter l'application
 
@@ -99,11 +105,18 @@ Inclure votre production dans le dépôt Git, ou le **lien de partage** du table
 
 - Combien de pages sont-elles nécessaires, à votre avis, pour répondre aux spécifications fonctionnelles définies ci-dessus?
 
-> _Ma réponse:_
+> _Ma réponse:_4 +1
+home page
+login page
+list des livres deja achter ou empenter
+list de livres disponible avec les prix et le detail
+
+page pour les admins
 
 - A quoi le plan du site ressemblera-t-il? Quelle page permettra de passer à quelle autre?
 
 > _Ma réponse:_
+home page ==> login page ===> list des livres page
 
 #### 💻 Travail à réaliser
 
